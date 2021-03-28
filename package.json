@@ -1,0 +1,39 @@
+{
+  "name": "Tech-Blog-MVC",
+  "version": "1.0.0",
+  "description": "My solution to Week 14 Challenge",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ojashri-Basnyat/Tech-Blog-MVC.git"
+  },
+  "keywords": [],
+  "author": "Ojashri Basnyat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ojashri-Basnyat/Tech-Blog-MVC/issues"
+  },
+  "homepage": "https://github.com/Ojashri-Basnyat/Tech-Blog-MVC#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bulma": "^0.9.0",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "jest": "^26.0.1",
+    "@creativebulma/bulma-divider": "^1.1.0"
+  }
+}
