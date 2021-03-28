@@ -67,7 +67,7 @@ THEN I am automatically signed out of the site
 ```
 
 
-## 🎨Mock-Up
+## Mock-Up
 <br>**The following animation demonstrates the application functionality:**</br>
 <br>![](assets/mock-up.gif)</br>
 
@@ -85,7 +85,7 @@ To run on _localhost:3001_, please run command _npm start_ to start the server a
 <br>![](assets/example.gif)</br>
 
 
-## ✏️Dependencies
+## Dependencies
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
 <p><a href="https://www.npmjs.com/package/express">Express.js</a></p>
@@ -97,13 +97,6 @@ To run on _localhost:3001_, please run command _npm start_ to start the server a
 <p><a href="https://www.npmjs.com/package/bcrypt">bycrypt</a></p>
 <p><a href="https://www.npmjs.com/package/express-session">express-session</a></p>
 <p><a href="https://www.npmjs.com/package/connect-session-sequelize">connect-session-sequelize</a></p>
-
-
-## 🔐License
-```
-Copyright © MIT. All rights reserved. 
-Licensed under the MIT license.
-```
 
 
 ## 🏆Badges
@@ -125,12 +118,7 @@ To test this project, please see the [Installation](#installation) section.
 <br>After the project is on your local, run _npm start_ to start the server and open [Insomnia Core](https://insomnia.rest/products/insomnia) to test API routes.</br>
 
 
-## ❓Questions
 
-If you have any questions about this projects, please contact me directly at tpgent01@outlook.com. 
-<br>You can view more of my projects at https://github.com/tpgent01 👾</br>
+## Contributing
 
-
-## 📌Contributing
-
-Taylor Gentry ©2021 All Rights Reserved.
+TA's Tutors, Git hub users, Taylor Gentry 
