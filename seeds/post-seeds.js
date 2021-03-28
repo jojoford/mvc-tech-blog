@@ -1,26 +1,46 @@
 const { Post } = require('../models');
 
 const postdata = [
-    {
-        title: "Moment of Truth",
-        text: "https://www.accenture.com/ca-en/insights/technology/technology-trends-2021?c=acn_ca_technologyvisiogoogle_11976128&n=psgs_0221&gclid=Cj0KCQjwi7yCBhDJARIsAMWFScPyUeTEfQJ9AeHwQVhF0dK3I_xGK5xRBsR8V6AyERWRjbcuX7RWxX8aAp39EALw_wcB&gclsrc=aw.ds",
-        user_id: 1
-    },
-    {
-        title: "Most Expensive Apps",
-        text: "https://coolmaterial.com/tech/most-expensive-apps/",
-        user_id: 5
-    },
-    {
-        title: "WFH",
-        text: "https://www.cnn.com/2021/03/15/success/remote-work-changed-lives-pandemic/index.html",
-        user_id: 8
-    },
-    {
-        title: "Most Valuable Startup in America",
-        text: "https://www.cnn.com/2021/03/15/investing/stripe-valuation/index.html",
-        user_id: 3
-    }
+  {
+    title: 'Donec posuere metus vitae ipsum.',
+    post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
+    user_id: 1
+  },
+  {
+    title: 'Morbi non quam nec dui luctus rutrum.',
+    post_url: 'https://nasa.gov/donec.json',
+    user_id: 1
+  },
+  {
+    title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
+    post_url: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    user_id: 1
+  },
+  {
+    title: 'Nunc purus.',
+    post_url: 'http://desdev.cn/enim/blandit/mi.jpg',
+    user_id: 2
+  },
+  {
+    title: 'Pellentesque eget nunc.',
+    post_url: 'http://google.ca/nam/nulla/integer.aspx',
+    user_id: 2
+  },
+  {
+    title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    post_url: 'https://stanford.edu/consequat.png',
+    user_id: 2
+  },
+  {
+    title: 'In hac habitasse platea dictumst.',
+    post_url: 'http://edublogs.org/non/ligula/pellentesque.js',
+    user_id: 3
+  },
+  {
+    title: 'Morbi non quam nec dui luctus rutrum.',
+    post_url: 'http://ucla.edu/consequat/nulla.html',
+    user_id: 3
+  }
 ];
 
 const seedPosts = () => Post.bulkCreate(postdata);
