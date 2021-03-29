@@ -4,8 +4,7 @@
 ## Description 
 A CMS-style blog site similar to a Wordpress site, where developers can publish blog posts and comment on other developers' posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
-## View on Heroku
-[Click here](shielded-sea-02519.herokuapp.com/) 
+<p><a href="shielded-sea-02519.herokuapp.com/"> View on Heroku </a><p> 
 
 ## Table of Contents
 
@@ -20,7 +19,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 * [Contributing](#contributing)
 
 
-## 🧠User Story
+## User Story
 ```
 AS A developer who writes about tech
 I WANT a CMS-style blog site
