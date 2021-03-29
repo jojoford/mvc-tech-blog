@@ -6,6 +6,9 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 
 ## View on heroku
 shielded-sea-02519.herokuapp.com/
+[![mvc-shot.png](https://i.postimg.cc/7hfsyqZY/mvc-shot.png)](https://postimg.cc/T5vqVMbZ)
+[![mvc-shot2.png](https://i.postimg.cc/bYBV9SmG/mvc-shot2.png)](https://postimg.cc/vD5vQTFM)
+Screenshots
 
 ## Table of Contents
 
@@ -28,19 +31,19 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
 
-## 🧩Acceptance Criteria Mock-Up
+## Acceptance Criteria Mock-Up
 
 <br>**The following animation demonstrates the application functionality:**</br>
 <br>![](assets/mock-up.gif)</br>
 
 
-## 🔌Installation
+## Installation
 
 The user should clone the repository from GitHub and open up the project in their code editor.
 <br>User will need to run node.js and perform an _npm install_ for all necessary dependencies listed below.</br>
 
 
-## 💻Usage 
+## Usage 
 Run the following command at the root of your project & answer the prompted questions:
 mysql -u root -p Enter password when prompted source db/schema.sql quit npm run seed npm start npm run watch
 
